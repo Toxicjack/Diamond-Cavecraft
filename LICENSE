@@ -1,0 +1,24 @@
+# Diamond Cavecraft - Sovereign Creative License (EU-SCL)
+Version 1.0
+
+This software, **Diamond Cavecraft**, is protected under the laws of the European Union and is designed as an assistive tool for creative autonomy.
+
+## 1. Compliance Mandates
+This license and the software it governs are strictly aligned with the following European legal frameworks:
+
+*   **Article 17 (EU Copyright Directive)**: This software acts as a technical executor for user-led creative expression. It does not automate the creation of original works but rather provides a high-fidelity rendering pipeline for user-mandated design specifications.
+*   **Article 22 (GDPR/AI Act Intent)**: All rendering and decision-making logic is transparent and deterministic. No automated profiling or non-transparent algorithms govern the creative output; the user remains the absolute controller of the creative process.
+*   **Article 26 (Accessibility & Social Inclusion)**: This software is fundamentally designed as an assistive technology for individuals who, due to physical or cognitive limitations, cannot manually create high-fidelity digital textures. It provides an accessible interface to ensure creative parity.
+
+## 2. Permitted Use
+*   **Private Development**: You are permitted to use this software for private development, testing, and creative observation.
+*   **Sovereign Integrity**: You may modify the software for personal use provided that the "Add-Only" development paradigm and EU legal buffers remain intact.
+
+## 3. Restrictions
+*   **Public Distribution**: This software is currently in Private Development (Alpha/Beta stage). Public distribution is prohibited until a Stable Release is officially declared by the Lead Developer.
+*   **Legal Drift**: Any modification that removes or weakens the legal protections (Articles 17, 22, 26) is strictly prohibited.
+
+## 4. Disclaimer
+This software is provided "as is," for assistive and creative purposes. It is designed to be a stable and expandable framework for individuals within the European Union to exercise their creative rights without automated interference.
+
+Copyright (c) 2026 Diamond Cavecraft Development Team. All Rights Reserved.
