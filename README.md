@@ -1,7 +1,4 @@
-# Diamond-Cavecraft
-**Diamond Cavecraft** is a high-fidelity, standalone Java utility designed to empower individuals with creative autonomy. It acts as a professional bridge for those who, due to physical or cognitive accessibility needs (Article 26), require an intuitive interface to generate high-quality, spectral-mapped digital assets and textures.
-
-# Diamond Cavecraft v0.5.2 [NEXUS-ELITE]
+# Diamond Cavecraft v0.6.4 [GHOST-SYNC]
 
 **Diamond Cavecraft** is a high-fidelity, standalone Java utility designed to empower individuals with creative autonomy. It acts as a professional bridge for those who, due to physical or cognitive accessibility needs (Article 26), require an intuitive interface to generate high-quality, spectral-mapped digital assets and textures.
 
@@ -10,11 +7,11 @@
 
 ## 🌟 Key Features
 
-*   **Nebula-Pulse UI**: A high-contrast, professional interface designed for maximum visibility and ease of use.
-*   **Spectral Shader Engine**: Advanced rendering pipeline including `Lumina Glow`, `Radiant Shade`, and `Chroma-Adaptive` tinting for deep, vibrant colors.
-*   **Tri-Spectral Ore Logic**: Specialized rendering for ore blocks that distinguishes between the material highlights and the background stone layers.
-*   **Complete Asset Registry**: Support for over 50+ Minecraft-compatible assets, including Tools, Combat Gear, Resources, and Botanical items.
-*   **Direct-to-JAR Portability**: The software can be compiled into a single, clickable `.jar` file for immediate execution.
+*   **Nebula-Pulse UI**: A high-contrast, professional interface designed for maximum visibility (Neon-on-Black).
+*   **Spectral Shader Engine**: Advanced rendering pipeline including `Lumina Glow`, `Radiant Shade`, and the new `Monochrome` mode.
+*   **Persistent Easter Egg Matrix**: Hidden state tracking for one-time discoveries.
+*   **Complete Asset Registry**: Support for over 70+ assets, including the full **Armor Set**, **Bundle**, **Honeycomb**, **Sugar**, and **Bone**.
+*   **Direct-to-JAR Portability**: Includes an automated build system to generate a single clickable icon.
 
 ## ⚖️ Legal Framework
 
@@ -25,27 +22,18 @@ This project is built on a foundation of European legal principles:
 
 ## 🚀 Getting Started
 
-### Prerequisites
-*   Java Development Kit (JDK) 25 or higher.
-
-### Quick Start (Standalone)
+### Standalone (Recommended)
 Just double-click the **`DiamondCavecraft.jar`** file in the main directory to open the software immediately.
 
 ### Manual Launch (Command Line)
 If you wish to compile or run the code manually:
 ```cmd
-javac DiamondCavecraft.java
-java DiamondCavecraft
-```
-
-### Packaging into a Clickable Icon
-To rebuild the standalone clickable JAR:
-```cmd
-jar cfe DiamondCavecraft.jar DiamondCavecraft *.class textures
+run.bat
 ```
 
 ## 🛠️ Development Paradigm
 Diamond Cavecraft follows a strict **Add-Only Improvement Rule**. Every update expands the software's capabilities while preserving its original structure and stability.
 
 ---
-**Lead Developer Note**: This software is private development and is currently in its Elite-Beta phase.
+**Lead Developer Note**: The spelling of the determining the peace of the puzzle making.
+
