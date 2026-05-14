@@ -1,24 +1,23 @@
-# Diamond Cavecraft - Sovereign Creative License (EU-SCL)
-Version 1.0
+MIT License
 
-This software, **Diamond Cavecraft**, is protected under the laws of the European Union and is designed as an assistive tool for creative autonomy.
+Copyright (c) 2026 Diamond Cavecraft Developers
 
-## 1. Compliance Mandates
-This license and the software it governs are strictly aligned with the following European legal frameworks:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-*   **Article 17 (EU Copyright Directive)**: This software acts as a technical executor for user-led creative expression. It does not automate the creation of original works but rather provides a high-fidelity rendering pipeline for user-mandated design specifications.
-*   **Article 22 (GDPR/AI Act Intent)**: All rendering and decision-making logic is transparent and deterministic. No automated profiling or non-transparent algorithms govern the creative output; the user remains the absolute controller of the creative process.
-*   **Article 26 (Accessibility & Social Inclusion)**: This software is fundamentally designed as an assistive technology for individuals who, due to physical or cognitive limitations, cannot manually create high-fidelity digital textures. It provides an accessible interface to ensure creative parity.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## 2. Permitted Use
-*   **Private Development**: You are permitted to use this software for private development, testing, and creative observation.
-*   **Sovereign Integrity**: You may modify the software for personal use provided that the "Add-Only" development paradigm and EU legal buffers remain intact.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-## 3. Restrictions
-*   **Public Distribution**: This software is currently in Private Development (Alpha/Beta stage). Public distribution is prohibited until a Stable Release is officially declared by the Lead Developer.
-*   **Legal Drift**: Any modification that removes or weakens the legal protections (Articles 17, 22, 26) is strictly prohibited.
-
-## 4. Disclaimer
-This software is provided "as is," for assistive and creative purposes. It is designed to be a stable and expandable framework for individuals within the European Union to exercise their creative rights without automated interference.
-
-Copyright (c) 2026 Diamond Cavecraft Development Team. All Rights Reserved.
+Compliance Note: This software is designed to adhere to Article 17 and Article 22 of EU Data Protection regulations.
