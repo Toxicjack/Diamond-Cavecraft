@@ -1,35 +1,27 @@
-# Diamond Cavecraft v0.8.3 [SHADER-PULSE]
+# Diamond Cavecraft v1.1.0 [PORTABLE-CORE]
 
-**Diamond Cavecraft** is a premium, high-accessibility asset registry and generator for Minecraft modders. It provides a high-contrast, professional interface designed for maximum legibility and speed, featuring a custom shader-driven dashboard and automated asset pack generation.
+Diamond Cavecraft v1.1.0 [PORTABLE-CORE] is a major portability and build-stability update.
 
-## 💎 Features
+This version upgrades Diamond Cavecraft into a true standalone JAR experience. The software can now be moved outside the project folder and still keep its textures working through improved dual-path asset loading.
 
-- **High-Contrast Interface**: Designed specifically for accessibility using a crisp Cyan, White, and Deep Obsidian palette.
-- **Single-Page Registry**: Instant visibility of all 100+ items with permanent numeric indexing for precise control.
-- **Shader-Pulse Technology**: Deep Nebula shader backgrounds and dynamic pulse animations for a modern, high-fidelity experience.
-- **Seasonal Intelligence**: Automatically adapts its visual theme for Holidays (Christmas, New Year, April Fools).
-- **Master Toggles**: Batch-enable or disable entire categories (Equipment, Resources, Industrial) with one click.
-- **Custom Visualizer**: Real-time preview of your registry with precision high-speed scrolling.
-- **One-Click Export**: Generates full Minecraft asset structures and KubeJS registry scripts instantly.
+## Added
 
-## 🚀 Getting Started
+- True standalone JAR portability.
+- Improved asset loading with local-folder priority and internal JAR fallback.
+- Safer Windows build process using dedicated JDK 25 pathing.
+- Non-destructive build workflow that does not delete classes or project assets.
+- Added README_BUILD_PROTOCOL.md to help future AI assistants preserve the stable build structure.
 
-1. **Prerequisites**: Ensure you have **Java JDK 17+** (JDK 25 recommended for full compatibility).
-2. **Launch**: Double-click the `DiamondCavecraft.jar` or run `run.bat` in the project folder.
-3. **Configure**: Set your `MOD ID` and `MATERIAL` (e.g., "ruby").
-4. **Select**: Choose which tools and items to generate.
-5. **Export**: Click **FINISH & EXPORT** to create your assets.
+## Previous Stability Work
 
-## 🛡️ License & Compliance
+This update builds on v1.0.0 [JAR-SYNC] and v1.0.1 [STABILITY-FIX], which introduced the executable JAR distribution model, restored the one-click launcher, improved GitHub-ready packaging, and automated texture/model packaging.
 
-- **License**: MIT License.
-- **Article 17 & 22 Compliance**: Strictly follows EU Data Protection guidelines for transparency and user-controlled logic.
-- **Accessibility**: Built with "Vision-Sync" protocols to ensure correct placement and contrast for handicapped accessibility.
+## Recommended Version
 
-## 🛠️ Build Status
-- **Current Version**: v0.8.3 [SHADER-PULSE]
-- **Compiler Status**: 100% Stable | Zero Warnings
-- **Platform**: Windows / Java
+This is the recommended current version.
+
+Older versions are kept for history, testing, and transparency.
 
 ---
-*Created with the [GENESIS-CORE] foundation.*
+
+Created by Toxicjack.
