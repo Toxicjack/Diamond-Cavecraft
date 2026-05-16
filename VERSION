@@ -1,60 +1,109 @@
-# Diamond Cavecraft - VERSION ME
+# Changelog - Diamond Cavecraft
 
-This file explains which Diamond Cavecraft version users should follow.
+All notable changes to the **Diamond Cavecraft** project will be documented in this file.
 
-## Always Use the Newest Version
+## [1.1.0] - 2026-05-16 [PORTABLE-CORE]
+- **PORTABLE-CORE EVOLUTION**: The software is now a true standalone JAR that can be moved out of the folder and run anywhere without losing textures.
+- **BEST-LOGIC BUILDER**: Implemented absolute JDK 25 pathing in `build_jar.bat` for 100% build reliability on Windows systems.
+- **NON-DESTRUCTIVE WORKFLOW**: The build process is now completely safe and never deletes classes or project assets.
+- **DUAL-PATH LOADER**: Improved icon loading logic to prioritize local folder assets while providing seamless internal JAR fallback for portability.
+- **AI BUILD PROTOCOL**: Added `README_BUILD_PROTOCOL.md` to ensure future AI assistants maintain the established stability.
 
-Users should always download and use the newest Diamond Cavecraft release.
+## [1.0.1] - 2026-05-16 [STABILITY-FIX]
+- **ALL-IN-ONE LAUNCHER**: Restored `run.bat` to automatically build and run the software in one click.
+- **GITHUB-READY**: Optimized the project structure for seamless GitHub distribution and "Ready-to-Run" experience.
+- **CLEAN INTERFACE**: Removed the intrusive Holographic Perimeter to restore the original design aesthetic.
+- **ASSET PACKAGING**: Integrated automated texture and model packaging into the primary launcher.
 
-The newest version has the latest fixes, improved interface behavior, better accessibility support, and the newest texture-helper features.
+## [1.0.0] - 2026-05-16 [JAR-SYNC]
+- **STANDALONE EVOLUTION**: Transitioned the software to a dedicated Executable JAR distribution model.
+- **LAUNCHER UPGRADE**: Optimized `run.bat` as a high-stability launcher for the JAR file.
+- **ASSET INTEGRATION**: Enhanced `build_jar.bat` to automatically package textures and models into the JAR.
+- **STABILITY-CORE**: Version increment to 1.0.0 to mark the software's transition to a stable, portable format.
 
-Older versions are kept only for project history.
+## [0.9.9] - 2026-05-16 [NEBULA-SYNC]
+- **NEBULA SHADER**: Replaced flat Registry backgrounds with dynamic, theme-responsive gradients and neural noise.
+- **5 NEW FEATURES**: Added Neon Flicker, Vortex Bloom, Spectral Pulse, Glitch Jitter, and Holographic Scanlines.
+- **WORKSPACE EXPANSION**: Integrated new shader toggles into the Visual Shaders control hub.
 
-## Current Latest Version
+## [0.9.8] - 2026-05-16 [STABILITY-SYNC]
+- **VISIBILITY LOCK**: Implemented custom painting for all buttons and tabs to eliminate White/Blue clashing.
+- **DARK-MODE ENGINE**: Forced Black backgrounds across all interactive components for high-contrast accessibility.
+- **UNIFIED PALETTE**: Standardized all text and borders to Cyan to protect user vision.
 
-**Diamond Cavecraft v0.6.4 [GHOST-SYNC]**
+## [0.9.7] - 2026-05-16 [TAB-SYNC]
+- **WORKSPACE EVOLUTION**: Reorganized interface into a multi-tabbed system (Registry, Visual Shaders, Color Lab).
+- **NEW SHADERS**: Added Prismatic Sync (Dynamic Rainbow) and Hue Shift protocols.
+- **OPTIMIZATION**: Enhanced interface performance with JTabbedPane architecture.
 
-This is the current latest version.
+## [0.9.6] - 2026-05-16 [RATTLER-GLITCH]
+- **REWARD SYSTEM**: Implemented Glitch-Crash sequence triggered by interacting with the Bone item.
+- **SECRET THEME**: Unlocked the "VOID GLITCH" high-contrast theme as an Easter Egg reward.
+- **PERSISTENCE**: Integrated egg progress and theme selection into the local session storage.
 
-## Older Versions
+## [0.9.5] - 2026-05-16
+### Added
+- **[HOLIDAY-RATTLER]**: Expanded theme system to 8 premium styles with full background synchronization.
+    - Added **FROST**, **SOLAR**, and **PRANK** holiday themes.
+- **[BONE-JOKE]**: Implemented the wacky 'Bone-Rattle Protocol'. The Bone item now shakes and rattles with random physics offsets.
+- **[GLOBAL-BG-SYNC]**: Themes now change the entire interface background color for a fully immersive look.
+- **[CALCIUM-SYNC]**: Updated the help guide with a bone-themed joke and achievement hint.
 
-Older versions, such as:
+## [0.9.1] - 2026-05-16
 
-- v0.5.2 [NEXUS-ELITE]
-- v0.5.3 [PIXEL-SYNC-STABLE]
-- v0.6.0 [CHRONO-ADAPTIVE]
-- v0.6.3 [RESPAWN-ELITE]
+## [0.9.0] - 2026-05-16
 
-are kept so people can see the development history of Diamond Cavecraft.
+## [0.8.9] - 2026-05-16
 
-They should not be treated as the main version unless someone specifically needs an older build.
+## [0.8.8] - 2026-05-16
 
-## Simple Rule
+## [0.8.7] - 2026-05-16
 
-Use the release marked:
+## [0.8.6] - 2026-05-16
 
-**Latest**
+## [0.8.5] - 2026-05-16
 
-If GitHub shows older versions above the newest one, still follow the release marked **Latest**.
+## [0.8.4] - 2026-05-16
+### Changed
+- Incremented version to 0.8.4 [RELEASE-SYNC] in preparation for the Name Tag update.
 
-## Privacy-Safe Creator Name
+## [0.8.3] - 2026-05-14
 
-Diamond Cavecraft is created by **Toxicjack**.
+## [0.8.2] - 2026-05-14
+### Changed
+- **[CORE-CLEAN]**: Simplified the UI footer to only display the version string.
+- Removed redundant Build IDs and protocol tags to declutter the dashboard.
 
-No real full identity name is required for public use.
+## [0.8.1] - 2026-05-14
+### Changed
+- **[CYAN-SYNC]**: Full accessibility overhaul. Removed all Yellow elements due to visibility issues.
+- Synchronized all labels, numbers, and highlights to High-Contrast Cyan and White.
+- Fixed Output Button visibility with a Bold Cyan-on-Black theme.
 
-## Community Notice
+## [0.8.0] - 2026-05-14
+### Remade
+- **[LUMINA-SYNC]**: Redesigned the Help Guide into a custom High-Contrast Dark Dialog.
+- Replaced standard JOptionPane with a themed JDialog featuring glassmorphism borders.
 
-Diamond Cavecraft is a free software tool for Minecraft-style texture workflows, MCreator users, modders, resource-pack creators, beginners, and accessibility users.
+## [0.7.9] - 2026-05-14
+### Added
+- **[PHANTOM-CORE]**: Implemented the "Vanishing Joker" achievement (triggers when all items are unchecked).
+- Added styled Glassmorphism components for MOD ID and MATERIAL inputs.
+### Fixed
+- Resolved "Unused Field" and "Unused Method" compiler warnings.
 
-It is not an official Minecraft product.
+## [0.7.8] - 2026-05-14
+### Added
+- **[GLOW-PULSE]**: Integrated dynamic pulse animations for active registry items.
+- Added high-speed precision scrolling with custom mouse wheel logic.
+- Implemented Seasonal Visual Protocols (Christmas Snow, New Year Sparks, April Fools Glitch).
+### Remade
+- Redesigned the "Bone" Easter Egg into a high-fidelity "GAME OVER" protocol screen.
 
-It is not approved by Mojang or Microsoft.
-
-It is not affiliated with Mojang, Microsoft, Minecraft, or MCreator.
-
-## Final Note
-
-The newest version is always the recommended version.
-
-Older versions are kept only for transparency, history, and respect for the software development path.
+## [0.7.0] - [0.7.7]
+### Added
+- Single-Page High-Contrast Registry (Black/White/Cyan).
+- Master-Toggles for batch category control.
+- Permanent Numeric Indexing for all 100+ items.
+- Neural Aura visual system.
+- Vortex-Core dashboard redesign.
