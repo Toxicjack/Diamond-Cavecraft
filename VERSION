@@ -2,6 +2,74 @@
 
 All notable changes to the **Diamond Cavecraft** project will be documented in this file.
 
+## [1.1.6] - 2026-05-25 [EXPORT-PATH-SYNC]
+- **EXPORT PATH REPAIR**:
+  - Fixed the output folder selector so it stores the real selected folder path instead of only the folder name.
+  - Added an export status line under the export button so the interface shows where the textures were written.
+- **TEXTURE CREATION REPAIR**:
+  - Added missing texture-source loading for Telescope, Arrow, Potion, Map, Book, Nether Wart, Blaze Powder, and Ghast Tear.
+  - Export now creates a fallback texture source instead of silently skipping a selected texture.
+- **MINECRAFT/KUBEJS PATH SYNC**:
+  - Preserved the existing legacy `textures/items` and `textures/blocks` output.
+  - Added standard Minecraft `assets/minecraft/textures/item` and `assets/minecraft/textures/block` mirrors.
+  - Added KubeJS `kubejs/assets/kubejs/textures/item` and `kubejs/assets/kubejs/textures/block` mirrors.
+  - Rebuilt the existing KubeJS startup script on export to prevent duplicate registry entries from breaking startup.
+- **VERSION STEPPING**:
+  - Incremented version to 1.1.6 [EXPORT-PATH-SYNC] across window titles, UI components, and export logs.
+
+## [1.1.5] - 2026-05-25 [RESOLUTE-EXPORT]
+- **CRISP 16x16 TEXTURE SCALING**:
+  - Implemented high-fidelity Nearest-Neighbor scaling for all exported textures.
+  - Ensures exported PNG files are guaranteed to be exactly 16x16 pixels.
+- **EXPORT ENGINE COMPLETE CHECK**:
+  - Integrated all selectable items from the registry tab into the export pipeline (including Helmet, Chestplate, Leggings, Boots, Armor, Fishing Rod, Spyglass, Amethyst Cluster, Honeycomb, Sugar, Bone, and Bundle).
+  - Remapped blocks and clusters to correctly save under the `textures/blocks` directory.
+- **VOID STORM SHADER VISUAL**:
+  - Added **Void Storm** visualizer shader featuring a dynamic swirling dark purple/magenta radial storm background and pulsing purple ring overlays on active foreground pixels.
+- **VERSION STEPPING**:
+  - Incremented version to 1.1.5 [RESOLUTE-EXPORT] across window titles, UI components, and logs.
+
+## [1.1.4] - 2026-05-25 [NAMING-EXPORT]
+- **MATERIAL-BASED ASSET NAMING**:
+  - Remapped the exported file names for material-dependent items, blocks, and tools.
+  - **Ore Drop** is now saved as `<material>.png` (e.g. `Glitch Diamond.png` or `echo_stone.png`) so it creates the correct material item.
+  - **Raw Ore** is saved as `raw_<material>.png`.
+  - **Tools & Armor** are prepended with the material prefix, saving as `<material>_sword.png`, `<material>_pickaxe.png`, etc., as expected by Minecraft resource packs.
+- **VERSION STEPPING**:
+  - Incremented version to 1.1.4 [NAMING-EXPORT] across frames and configurations.
+
+## [1.1.3] - 2026-05-25 [SHADER-EXPORT]
+- **SHADER-TO-EXPORT CONNECTION**:
+  - Connected the visualizer shaders (Vortex Bloom, Spectral Pulse, Aurora Wave, Cosmic Stardust, Matrix Rain, Holo Scanlines, and Neon Flicker) directly to the exported PNG texture files.
+  - Transparent backgrounds (`a == 0`) now automatically render visual backgrounds matching the active shader when exported.
+  - Active foreground shaders are directly baked as pixel filters on the items, blocks, and tools.
+- **VERSION STEPPING**:
+  - Incremented version to 1.1.3 [SHADER-EXPORT] across window titles, UI components, and logs.
+
+## [1.1.2] - 2026-05-25 [NEBULA-VISUAL]
+- **5 NEW VISUAL SHADERS**:
+  - Added **Aurora Wave** flowing wave background.
+  - Added **Cosmic Stardust** floating star particles.
+  - Added **Matrix Rain** digital vertical code streams.
+  - Added **Thermal Vision** dynamic heat-map pixel shader.
+  - Added **Chroma Glitch** channel split chromatic aberration pixel shader.
+- **SHADER RENDERING ENGINE UPGRADE**:
+  - Rewrote the visualizer preview panels to dynamically draw animations directly behind/on item icons when shaders are toggled.
+  - Enhanced **Holo Scanlines** to draw scrolling lines over the icons.
+  - Enhanced **Neon Flicker** to flicker item rendering opacities.
+  - Enhanced **Glitch Jitter** to shake rendering coordinates.
+  - Enhanced **Vortex Bloom** to render a rotating gradient nebula.
+  - Enhanced **Spectral Pulse** to pulse background opacity.
+- **COMPACT INTERFACE DESIGN**:
+  - Re-designed the Visual Shaders tab to a clean, highly aligned 4-column layout (2 shaders per row) supporting all 18 visualizer options.
+- **VERSION STEPPING**:
+  - Incremented version to 1.1.2 [NEBULA-VISUAL] across system logs and interface titles.
+
+## [1.1.1] - 2026-05-25 [BLOCK-COLOR]
+- **BLOCK COLOR CUSTOMIZATION**: Added dedicated customizable **Block Color** for solid blocks.
+- **INTERFACE IMPROVEMENT**: Exposed **Crusher Head** and **Block** color buttons in the Color Lab, realigning the grid layout into a perfect, symmetrical 8-row layout.
+- **VERSION STEPPING**: Version incremented to 1.1.1 [BLOCK-COLOR] across window titles, UI components, and logs to ensure strict compatibility.
+
 ## [1.1.0] - 2026-05-16 [PORTABLE-CORE]
 - **PORTABLE-CORE EVOLUTION**: The software is now a true standalone JAR that can be moved out of the folder and run anywhere without losing textures.
 - **BEST-LOGIC BUILDER**: Implemented absolute JDK 25 pathing in `build_jar.bat` for 100% build reliability on Windows systems.
