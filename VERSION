@@ -2,6 +2,58 @@
 
 All notable changes to the **Diamond Cavecraft** project will be documented in this file.
 
+## [1.1.11] - 2026-05-26 [ACHIEVEMENT-MEMORY]
+- **ONE-TIME ACHIEVEMENT MEMORY**:
+  - Updated Sword, Pickaxe, Bone, and Void Curator achievement triggers so each unlock effect runs only once.
+  - Repeated clicks or repeated unlock actions now open the saved in-depth achievement record instead of replaying the first unlock sequence.
+  - Preserved `.dcc_eggs` persistence so unlocked achievements remain saved after restarting the software.
+- **ACHIEVEMENT RECORD UI**:
+  - Added an **OPEN RECORD** action on unlocked achievement cards.
+  - Added saved record detail windows with the strange question, unlock logic, connection chain, and saved-memory explanation.
+- **PRESERVATION CHECK**:
+  - Preserved Registry, Visual Shaders, Color Lab, export behavior, KubeJS output, texture generation, and all existing achievement/easter egg identities from v1.1.10.
+
+## [1.1.10] - 2026-05-26 [SWORD-REPAIR-EGG]
+- **SWORD REPAIR EASTER EGG**:
+  - Added the **SWORD REBOOT QUESTION** achievement.
+  - Clicking the Sword preview now temporarily defeats the interface with a dark repair overlay, then repairs the UI back through a visible progress bar.
+  - Added a unique Sword achievement window after the repair completes, with buttons to view Achievements or return to the working interface.
+- **ACHIEVEMENT TAB EXPANSION**:
+  - Expanded the Achievements tab from 3 to 4 tracked achievements.
+  - Added saved `sword_repair` egg state to `.dcc_eggs` without changing the existing mining, bone, glitch, or void curator tokens.
+- **PRESERVATION CHECK**:
+  - Preserved Registry, Visual Shaders, Color Lab, export behavior, KubeJS output, texture generation, and all previous easter egg triggers from v1.1.9.
+
+## [1.1.9] - 2026-05-26 [ACHIEVEMENT-QUESTIONS]
+- **ACHIEVEMENTS TAB**:
+  - Added a new **ACHIEVEMENTS** tab beside Registry, Visual Shaders, and Color Lab.
+  - Added three achievement cards with strange-question hints, exact unlock logic, saved unlock status, and visible connection chains.
+  - Added a real **REFRESH STATUS** button that updates the achievement cards from the current easter egg state.
+- **EASTER EGG PRESENTATION UPGRADE**:
+  - Improved the Pickaxe mining easter egg with a unique Deep Mining Question unlock window while preserving the original browser-link trigger.
+  - Improved the Bone easter egg with a unique Bone Protocol Question unlock window while preserving the existing glitch/game-over trigger.
+  - Added saved **VOID CURATOR** achievement state so the all-empty registry egg remains visible in the achievement list after unlock.
+- **PRESERVATION CHECK**:
+  - Preserved all registry items, Color Lab controls, Visual Shader toggles, visualizer cards, export logic, KubeJS output, texture loading, and previous easter egg triggers from v1.1.8.
+
+## [1.1.8] - 2026-05-26 [PHANTOM-ACHIEVEMENT]
+- **EMPTY REGISTRY EASTER EGG UPGRADE**:
+  - Added the animated **VOID CURATOR** achievement window when all registry checkboxes are turned off.
+  - Added one-time trigger protection so the achievement appears once per all-empty transition instead of repeating on every preview refresh.
+  - Added real action buttons for returning to the Registry tab or keeping the current empty selection.
+- **EMPTY VISUALIZER STATE**:
+  - Added a matching empty-registry preview card in the visualizer so the all-off state has a visible, styled result instead of only blank rows.
+- **PRESERVATION CHECK**:
+  - Preserved all registry items, preview/export logic, KubeJS export, Minecraft asset mirrors, texture loading, color sync, and shader systems from v1.1.7.
+
+## [1.1.7] - 2026-05-26 [REGISTRY-COLOR-SYNC]
+- **REGISTRY LIST REPAIR**:
+  - Added Nether Wart, Blaze Powder, and Ghast Tear to the visible REGISTRY tab Resources list so the three existing preview/export items are also selectable and visible in the registry list.
+- **DIRT BLOCK COLOR SYNC**:
+  - Connected Dirt Block tinting to the same Block color control, so dirt-style block textures synchronize with the chosen block color instead of drifting into the wood/fantasia tint path.
+- **PRESERVATION CHECK**:
+  - Preserved the existing preview, export, KubeJS, Minecraft mirror paths, texture loading, and visual shader features from v1.1.6.
+
 ## [1.1.6] - 2026-05-25 [EXPORT-PATH-SYNC]
 - **EXPORT PATH REPAIR**:
   - Fixed the output folder selector so it stores the real selected folder path instead of only the folder name.
