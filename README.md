@@ -1,4 +1,4 @@
-# Diamond Cavecraft v1.1.13 [TEXTURE-STUDIO-FUNNY-ACHIEVEMENT]
+# Diamond Cavecraft v1.1.15 [TEXTURE-STUDIO-FUNNY-ACHIEVEMENT]
 
 **Diamond Cavecraft** is a premium, high-accessibility asset registry and generator for Minecraft modders. It provides a high-contrast, professional interface designed for maximum legibility and speed, featuring a custom shader-driven dashboard and automated asset pack generation.
 
