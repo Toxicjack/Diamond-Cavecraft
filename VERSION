@@ -2,6 +2,31 @@
 
 All notable changes to the **Diamond Cavecraft** project will be documented in this file.
 
+## [1.1.15] - 2026-06-05 [TEXTURE-STUDIO-FUNNY-ACHIEVEMENT]
+- **TEXTURE MAKER STUDIO REDESIGN**:
+  - Replaced the plain external brush-color flow with a built-in Texture Maker color studio using swatches, RGB sliders, recent colors, blend mode, blend strength, live brush preview, theme-color pickup, and source-center sampling.
+  - Added connected blend behavior on the 16x16 canvas: Paint, Blend, Lighten, Darken, and Tint now change how brush color combines with existing pixels.
+  - The live source preview now updates while drawing, not only after applying.
+- **NEW TEXTURE TARGETS**:
+  - Added **Apple**, **Carrot**, **Coal**, **Amethyst Shard**, and **Blaze Rod** as selectable texture targets.
+  - Connected the new targets to texture loading, Registry selection, visualizer preview, Texture Maker target selection, export output, model JSON generation, and KubeJS item registry output.
+- **FUNNY TEXTURE ACHIEVEMENT**:
+  - Added **PIXEL PANCAKE DIPLOMA**, unlocked when a Texture Maker design is applied.
+  - The unlock popup shows the exact texture that was created and records the achievement in `.dcc_eggs`.
+- **PRESERVATION CHECK**:
+  - Preserved Registry, Visual Shaders, Color Lab, Texture Maker actions, Achievements, KubeJS output, export behavior, Prismarine/Stone blocks, and all previous easter egg identities from v1.1.12.
+
+## [1.1.12] - 2026-06-05 [TEXTURE-MAKER-BLOCKS]
+- **TEXTURE MAKER TAB**:
+  - Added a new **TEXTURE MAKER** tab beside Registry, Visual Shaders, Color Lab, and Achievements.
+  - Added a real 16x16 pixel overdraw canvas with target texture selection, brush color, brush size, alpha eraser, restore-from-cache, clear-canvas, apply-to-preview/export-cache, and save-maker-PNG actions.
+  - Texture Maker edits update the existing live texture cache so the current preview and export pipeline can use the custom design without removing existing texture logic.
+- **NEW BLOCKS**:
+  - Added **Prismarine** and **Stone** as selectable block entries.
+  - Connected both blocks to texture loading, Registry selection, visualizer preview, block export folders, Minecraft model path generation, and KubeJS block registry output.
+- **PRESERVATION CHECK**:
+  - Preserved Registry, Visual Shaders, Color Lab, Achievements, export behavior, KubeJS output, existing texture generation, and all previous easter egg identities from v1.1.11.
+
 ## [1.1.11] - 2026-05-26 [ACHIEVEMENT-MEMORY]
 - **ONE-TIME ACHIEVEMENT MEMORY**:
   - Updated Sword, Pickaxe, Bone, and Void Curator achievement triggers so each unlock effect runs only once.
